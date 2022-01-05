@@ -1,12 +1,10 @@
+import Home from "./Componentes/Paginas/Home/Home.js";
 
 
-const App = () => {
+const App = () => (
+  <Home />
+)
 
-
-
-
-
-};
 
 
 
