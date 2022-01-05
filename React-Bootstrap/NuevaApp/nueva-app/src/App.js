@@ -1,9 +1,10 @@
-import Home from "./Componentes/Paginas/Home/Home.js";
+import Home from "./Componentes/Paginas/Home/Home";
 
-
-const App = () => (
-  <Home />
-)
+function App() {
+  return (
+    <Home />
+  );
+}
 
 
 

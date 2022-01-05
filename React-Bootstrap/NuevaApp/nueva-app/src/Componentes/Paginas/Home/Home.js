@@ -1,6 +1,6 @@
 
 
-const Home = () => (
+const Home = () => {
 
     <Nav
         activeKey="/home"
@@ -22,8 +22,6 @@ const Home = () => (
         </Nav.Item>
     </Nav>
 
-
-
-)
+}
 
 export default Home;
