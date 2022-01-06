@@ -1,6 +1,6 @@
+import { Button, Navbar, Nav, Item } from 'react-bootstrap'
 
-
-const Home = () => {
+const Home = () => (
 
     <Nav
         activeKey="/home"
@@ -22,6 +22,6 @@ const Home = () => {
         </Nav.Item>
     </Nav>
 
-}
+)
 
 export default Home;

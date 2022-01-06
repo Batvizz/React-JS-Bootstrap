@@ -1,10 +1,11 @@
-import Home from "./Componentes/Paginas/Home/Home";
+import Home from "./Componentes/Paginas/Home/Home.js";
 
-function App() {
-  return (
+const App = () => (
+
+  <>
     <Home />
-  );
-}
+  </>
+)
 
 
 
