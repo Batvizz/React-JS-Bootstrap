@@ -10,11 +10,11 @@ import {
     MDBNavbarItem,
     MDBNavbarLink,
     MDBBtn,
-    MDBDropdown,
-    MDBDropdownToggle,
-    MDBDropdownMenu,
-    MDBDropdownItem,
-    MDBDropdownLink,
+    /*MDBDropdown,
+      MDBDropdownToggle,
+      MDBDropdownMenu,
+      MDBDropdownItem,
+      MDBDropdownLink, */
     MDBCollapse
 } from 'mdb-react-ui-kit';
 
@@ -25,7 +25,7 @@ export default function Home() {
 
     return (
 
-        <MDBNavbar expand='lg' light bgColor='dark'>
+        <MDBNavbar expand='lg' light bgColor='light'>
             <MDBContainer fluid>
                 <MDBNavbarBrand href='#'> Inicio </MDBNavbarBrand>
 
